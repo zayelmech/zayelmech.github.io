@@ -11,5 +11,20 @@ html {
 header {
     height: 15vh;
     width: 100vw;
-    background-color: black;
+    background-color: blue;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    color: white;
+    font-family: Roboto;
+}
+
+.titulo img {
+    height: 100%;
+    border-radius: 45%;
 }
