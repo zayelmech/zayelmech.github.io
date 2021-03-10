@@ -149,6 +149,7 @@ header {
     font-size: 2.5rem;
     font-weight: bold;
     line-height: 2.4rem;
+    margin-top: 40px;
     color: var(--titulos);
 }
 
@@ -161,6 +162,27 @@ header {
 
 .section-title {
     background-color: var(--off-white);
+}
+
+.section-title button {
+    position: fixed;
+    bottom: 80px;
+    left: calc((100% - 250px)/2);
+    border: none;
+    height: 30px;
+    width: 250px;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgba(23, 26, 32, 0.8);
+    font-size: 2rem;
+    color: var(--just-white);
+    box-shadow: 0 3px 4px rgba(51, 51, 51, 0.15);
+    cursor: pointer;
+}
+
+.section-title button:hover {
+    color: rgba(23, 26, 32, 0.8);
+    background-color: var(--just-white);
 }
 
 .main-section {
@@ -181,22 +203,63 @@ header {
 .contenedor-proyectos-web {
     display: flex;
     /*creando la magia*/
-    height: 100%;
+    width: 90vw;
+    height: 350px;
+    min-width: 288px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
     overflow-y: hidden;
 }
 
-.contenedor-proyectos-web section {
+.contenedor-proyectos-web .tarjeta-web {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 300px;
+    margin: 30px 20px 0;
     scroll-snap-align: center;
+    background-color: var(--off-white);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+    text-align: start;
 }
 
-.contenedor-proyectos-web img {
-    width: 70%;
+.contenedor-proyectos-web .tarjeta-web h3 {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2rem;
+    color: var(--black);
+}
+
+.contenedor-proyectos-web .tarjeta-web p {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: var(--black);
+}
+
+.background-image-web {
+    display: block;
+    width: 80%;
+    height: 200px;
     min-width: 250px;
     max-width: 300px;
-    max-height: 80%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.simetrical {
+    background-image: url('../img/simetrical.PNG');
+}
+
+.mobileFirts {
+    background-image: url('../img/mobileFirst.png');
+}
+
+.paginaCopiadeGoogle {
+    background-image: url('../img/googleCopy.png');
 }
 
 footer {
