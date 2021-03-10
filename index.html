@@ -11,111 +11,79 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="https://www.vippng.com/png/full/140-1409638_green-tick-clipart-simbol-transparent-green-tick-icon.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
         <section class="titulo">
+            <a href="./index.html"><span class="logo">Ab</span></a>
+            <span class="icono-menu" onclick="mostrarMenu()"></span>
 
-
-            <img src="https://avatars.githubusercontent.com/u/56939611?s=460&u=f965cff1883772a4c0f430ab6b2bf516018ae45b&v=4" alt="Profile picture">
-
-
-            <div>
-                <h1>Abdiel Carreño Rojas</h1>
-                <h2>Ingeniero en mecatrónica </h2>
-            </div>
+            <section class="menu-desplegable" id="menuDesplegable">
+                <div class="menu-desplegable--transparente" onclick="ocultarMenu()"></div>
+                <div class="menu-desplegable--info">
+                    <span class="icono-menu--close" onclick="ocultarMenu()"></span>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Perfil</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
         </section>
 
     </header>
     <main class="main-container">
+        <section class="main-container--scroll">
+            <section class="section-title principal-section">
+                <h2>Proyectos Web</h2>
+                <a href="">Ver detalles</a>
+                <section class="contenedor-proyectos-web">
 
-        <section class="right-info">
-            <div class="datos-contacto">
-                <h2>Contacto</h2>
+                    <div>
+                        <img src="./img/googleCopy.png" alt="paginaCopiadeGoogle">
+                        <p class="image--title"></p>
+                        <p class="image--description"></p>
+                        <a href="https://zayelmech.github.io/CursoMobileFirst/"></a>
+                    </div>
+
+                    <div>
+                        <img src="./img/mobileFirst.png" alt="paginaCopiadeGoogle">
+                        <p class="image--title"></p>
+                        <p class="image--description"></p>
+                        <a href="https://zayelmech.github.io/GoogleCopy/"></a>
+                    </div>
+
+
+
+                </section>
+            </section>
+            <section class="main-section principal-section">
+                <h2>Proyectos mecatrónicos</h2>
+                <a href="">Ver detalles</a>
+            </section>
+            <section class="section-web principal-section">
+                <h2>Robots de Competencia</h2>
+                <a href="">Ver detalles</a>
+
+            </section>
+            <footer>
                 <ul>
-                    <li>Ubicacion:</li>
-                    <li>email:</li>
-                    <li>cel:</li>
-                    <li>linked In:</li>
-                    <li>Platzi:</li>
+                    <li><a href="">LinkedIn</a></li>
+                    <li><a href="">Platzi</a></li>
+                    <li><a href="">Facebook</a></li>
                 </ul>
-            </div>
-            <div class="info-adicional">
-                <h2>Personal</h2>
-                <ul>
-                    <li>Date</li>
-                    <li>Disponibilidad para viajar</li>
-                    <li>Licencia de conducir</li>
-                    <li>Hobbies</li>
-                </ul>
-                <h2>Información tecnica</h2>
-                <ul>
-                    <li>Idioma extranjero</li>
-                    <li>Programas</li>
-                    <li>Cursos</li>
-                </ul>
-
-            </div>
-        </section>
-        <section class="main-info">
-            <h2>Objetivo profesional</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium architecto eius inventore praesentium libero nostrum voluptatem quia iusto rerum optio, dolore quaerat provident quo vero totam fuga quod quasi nesciunt.
-            </p>
-            <h2>Información academica</h2>
-            <p>
-                <ul>
-                    <li>
-
-                        <a href="http://www.cobao.edu.mx/" target="_blank">COLEGIO DE BACHILLERES DEL ESTADO DE OAXACA</a>
-                        <p>2011- 2014</p>
-                        <p>Capacitación en Informatica</p>
-                    </li>
-
-                    <li>
-                        <a href="https://www.utm.mx/" target="_blank">UNIVERSIDAD TECNOLÓGICA DE LA MIXTECA</a>
-                        <p>2014- 2020</p>
-                        <p>Excelencia academica CENEVAL-EGEL</p>
-                        <p>Miembro y asesor en el Club de Mini-Robotica</p>
-                        <p>1st MiniSumo Autonomo virtual (Robot Rumble Play 2020)</p>
-                    </li>
-                </ul>
-
-            </p>
-            <h2>Experiencia laboral</h2>
-            <ul>
-                <li>
-                    Zayelmech
-
-                </li>
-                <li>
-                    <a href="https://teslabem.com/" target="_blank" rel="noopener noreferrer">TeslaBem</a>
-
-                </li>
-                <li>
-                    DENOBA
-                </li>
-                <li>
-                    <a href="https://www.prelxaid.com/" target="_blank">PrelXaid</a>
-
-                </li>
-
-                <li>
-                    <a href="https://www.prelxaid.com/" target="_blank">DIAXINOVA</a>
-                </li>
-            </ul>
+                <a href="./index.html"><span class="logo">Ab</span></a>
+            </footer>
         </section>
 
     </main>
-    <footer>
-        <button>Mechatronic</button>
-        <button>Web Dev</button>
-        <button>Designer</button>
-        <button>Programmer</button>
-    </footer>
+
+    <script src="./script.Js"></script>
 </body>
 
 </html>
