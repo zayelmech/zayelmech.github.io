@@ -68,7 +68,7 @@ header {
     right: 0;
     width: 100vw;
     height: 100vh;
-    display: flex;
+    display: none;
 }
 
 .icono-menu--close {
@@ -138,10 +138,14 @@ header {
     /*overflow-x: hidden;*/
 }
 
-.principal-section {
+.principal-section--container {
     width: 100vw;
     height: 100vh;
     scroll-snap-align: start;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
 }
 
 .principal-section-body {
@@ -163,44 +167,34 @@ header {
     justify-content: center;
 }
 
-.principal-section h2 {
+.principal-section--container h2 {
     font-size: 2.5rem;
     font-weight: bold;
     line-height: 2.4rem;
     color: var(--titulos);
 }
 
-.principal-section a {
+.principal-section--container a {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.2rem;
     color: var(--titulos);
 }
 
-.section-title {
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--off-white);
+.seccion-proyectosWeb {
+    background-color: var(--soft-orange);
 }
 
-.main-section {
-    background-image: url('../img/render.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.seccion-proyectosMecatronicos {
+    background-color: var(--soft-orange);
 }
 
-.section-web {
+.seccion-robots {
     height: 90vh;
-    background-image: url('../img/minisumo.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: var(--soft-orange);
 }
 
-.contenedor-proyectos-web {
+.main-container--tarjetas {
     display: flex;
     align-items: center;
     /*creando la magia*/
@@ -213,7 +207,7 @@ header {
     /*overflow-y: hidden;*/
 }
 
-.contenedor-proyectos-web .tarjeta-web {
+.main-container--tarjetas .tarjeta-body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -224,13 +218,14 @@ header {
     max-height: 350px;
     margin: 0 20px 0;
     padding-bottom: 5px;
+    border-radius: 10px;
     scroll-snap-align: center;
     background-color: var(--off-white);
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.16);
     text-align: start;
 }
 
-.contenedor-proyectos-web .tarjeta-web h3 {
+.main-container--tarjetas .tarjeta-body h3 {
     font-weight: bold;
     font-size: 2rem;
     line-height: 2rem;
@@ -238,7 +233,7 @@ header {
     color: var(--black);
 }
 
-.contenedor-proyectos-web .tarjeta-web p {
+.main-container--tarjetas .tarjeta-body p {
     font-weight: 300;
     font-size: 1.4rem;
     line-height: 1.4rem;
@@ -246,14 +241,15 @@ header {
     color: var(--black);
 }
 
-.contenedor-proyectos-web .tarjeta-web a {
+.main-container--tarjetas .tarjeta-body a {
     margin-left: 10px;
 }
 
-.background-image-web {
+.background-image-card {
     display: block;
     width: 100%;
     height: 100%;
+    border-radius: 10px 10px 0 0;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -270,6 +266,29 @@ header {
 .paginaCopiadeGoogle {
     background-image: url('../img/googleCopy.png');
 }
+
+.plantaTratadora {
+    background-image: url('../img/render.png');
+}
+
+.chevyVss {
+    background-image: url('../img/vssCar.png');
+}
+
+.minisumo {
+    background-image: url('../img/minisumo.jpeg');
+}
+
+.laberinto {
+    background-image: url('../img/fauno.jpg');
+}
+
+
+/*
+*
+FOOTER
+*
+*/
 
 footer {
     height: 10vh;
