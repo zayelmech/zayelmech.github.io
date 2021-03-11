@@ -65,7 +65,7 @@ header {
 .menu-desplegable {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -84,7 +84,7 @@ header {
 }
 
 .menu-desplegable .menu-desplegable--transparente {
-    width: 30%;
+    width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.16);
 }
@@ -93,6 +93,7 @@ header {
     width: 70%;
     height: 100%;
     max-width: 300px;
+    min-width: 160px;
     background-color: var(--just-white);
     display: flex;
     flex-direction: column;
@@ -138,11 +139,28 @@ header {
 }
 
 .principal-section {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    text-align: center;
     scroll-snap-align: start;
-    padding-top: 45px;
+}
+
+.principal-section-body {
+    width: 100%;
+    height: 80vh;
+    margin-top: 10vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.principal-section-body .title-container {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .principal-section h2 {
@@ -155,39 +173,20 @@ header {
 .principal-section a {
     font-size: 1.4rem;
     font-weight: 500;
-    line-height: 1.4rem;
+    line-height: 1.2rem;
     color: var(--titulos);
 }
 
 .section-title {
-    background-color: var(--off-white);
     display: flex;
+    justify-content: start;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
-}
-
-.section-title button {
-    /*left: calc((100% - 250px)/2);*/
-    border: none;
-    height: 30px;
-    width: 250px;
-    border-radius: 15px;
-    outline: none;
-    background-color: rgba(23, 26, 32, 0.8);
-    font-size: 2rem;
-    color: var(--just-white);
-    box-shadow: 0 3px 4px rgba(51, 51, 51, 0.15);
-    cursor: pointer;
-}
-
-.section-title button:hover {
-    color: rgba(23, 26, 32, 0.8);
-    background-color: var(--just-white);
+    background-color: var(--off-white);
 }
 
 .main-section {
-    background-image: url('../img/render.bmp');
+    background-image: url('../img/render.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -203,26 +202,30 @@ header {
 
 .contenedor-proyectos-web {
     display: flex;
+    align-items: center;
     /*creando la magia*/
     width: 90vw;
-    height: 350px;
+    height: 70vh;
     min-width: 288px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
 }
 
 .contenedor-proyectos-web .tarjeta-web {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 90%;
-    height: 300px;
-    margin: 30px 20px 0;
+    width: 90vw;
+    height: 95%;
+    max-height: 350px;
+    margin: 0 20px 0;
+    padding-bottom: 5px;
     scroll-snap-align: center;
     background-color: var(--off-white);
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.16);
+    text-justify: inter-word;
     text-align: start;
 }
 
@@ -230,6 +233,7 @@ header {
     font-weight: bold;
     font-size: 2rem;
     line-height: 2rem;
+    margin-left: 10px;
     color: var(--black);
 }
 
@@ -237,13 +241,18 @@ header {
     font-weight: 300;
     font-size: 1.4rem;
     line-height: 1.4rem;
+    margin-left: 10px;
     color: var(--black);
+}
+
+.contenedor-proyectos-web .tarjeta-web a {
+    margin-left: 10px;
 }
 
 .background-image-web {
     display: block;
-    width: 80%;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     min-width: 250px;
     max-width: 300px;
     background-position: center;
@@ -283,4 +292,26 @@ footer a {
 
 footer ul {
     list-style: none;
+}
+
+.contact-icon {
+    /*left: calc((100% - 250px)/2);*/
+    position: absolute;
+    bottom: calc(10vh + 10px);
+    right: 10px;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    outline: none;
+    background-image: url('../img/telegram_logo.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 3px 4px rgba(51, 51, 51, 0.15);
+    cursor: pointer;
+}
+
+.contact-icon:hover {
+    box-shadow: 0 3px 5px rgba(51, 51, 51, 0.8);
 }
