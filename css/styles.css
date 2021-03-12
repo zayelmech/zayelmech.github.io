@@ -190,6 +190,10 @@ header {
 }
 
 .seccion-robots {
+    background-color: var(--soft-orange);
+}
+
+.seccion-perfil {
     height: 90vh;
     background-color: var(--soft-orange);
 }
@@ -281,6 +285,11 @@ header {
 
 .laberinto {
     background-image: url('../img/fauno.jpg');
+}
+
+.miFoto {
+    border-radius: 50%;
+    background-image: url('https://avatars.githubusercontent.com/u/56939611?s=460&u=f965cff1883772a4c0f430ab6b2bf516018ae45b&v=4');
 }
 
 
