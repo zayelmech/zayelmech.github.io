@@ -289,6 +289,7 @@ header {
 
 .miFoto {
     border-radius: 50%;
+    background-position: top;
     background-image: url('https://avatars.githubusercontent.com/u/56939611?s=460&u=f965cff1883772a4c0f430ab6b2bf516018ae45b&v=4');
 }
 
