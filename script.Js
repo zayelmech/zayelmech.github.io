@@ -15,14 +15,14 @@ var scrollAnterior = 0;
 function opacarObjetos() {
     let iconoTele = document.getElementById('iconoFlotante');
     let scrolleableSection = document.getElementById('scrolleableSection');
-    iconoTele.style.opacity = "0.5";
+    iconoTele.style.opacity = "0.4";
     let pendiente;
     let scrollActual = scrolleableSection.scrollTop;
     //console.log(scrollActual);
     pendiente = Math.abs(scrollActual - scrollAnterior);
-    console.log(pendiente);
+    //console.log(pendiente);
     if (pendiente < 2) {
-        console.warn(pendiente);
+        //console.warn(pendiente);
         iconoTele.style.opacity = "1";
     }
     scrollAnterior = scrollActual;

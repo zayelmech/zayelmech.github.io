@@ -315,6 +315,8 @@ footer .logo {
 
 footer a {
     color: var(--just-white);
+    margin-left: 15px;
+    font-size: 1.4rem;
     text-decoration: none;
 }
 
