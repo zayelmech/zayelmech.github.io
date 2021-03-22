@@ -11,6 +11,9 @@ function mostrarMenu() {
     menuDesplegable.style.display = "flex";
 }
 var scrollAnterior = 0;
+var sectionServicios = document.getElementById("servicios");
+var logoLetras = document.getElementById('logoLetras');
+var spanMenuIcon = document.getElementById('spanMenuIcon');
 
 function opacarObjetos() {
     let iconoTele = document.getElementById('iconoFlotante');
@@ -26,4 +29,13 @@ function opacarObjetos() {
         iconoTele.style.opacity = "1";
     }
     scrollAnterior = scrollActual;
+
+    if (scrollActual >= sectionServicios.clientHeight * 2 && scrollActual < sectionServicios.clientHeight * 3) {
+        logoLetras.style.color = "#fff";
+        spanMenuIcon.style.filter = "invert(100%)";
+        console.warn("listo");
+    } else {
+        spanMenuIcon.style.filter = "invert(0%)";
+        logoLetras.style.color = "#393c41";
+    }
 }
