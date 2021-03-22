@@ -9,6 +9,7 @@
     --off-white: #faf8f7;
     --just-white: #fff;
     --titulos: #393c41;
+    --backgroundColor: #0f2f4e;
 }
 
 * {
@@ -45,7 +46,7 @@ header {
     font-size: 2.5rem;
     font-weight: bold;
     line-height: 2.5;
-    color: var(--black);
+    color: var(--titulos);
 }
 
 .titulo a {
@@ -170,32 +171,120 @@ header {
 .principal-section--container h2 {
     font-size: 2.5rem;
     font-weight: bold;
-    line-height: 2.4rem;
+    line-height: 2.6rem;
     color: var(--titulos);
 }
 
 .principal-section--container a {
     font-size: 1.4rem;
     font-weight: 500;
-    line-height: 1.2rem;
-    color: var(--titulos);
+    line-height: 1.5rem;
+    color: #808080;
 }
 
-.seccion-proyectosWeb {
-    background-color: var(--soft-orange);
+.seccion-bc-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/background-img-HD.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.seccion-proyectosMecatronicos {
-    background-color: var(--soft-orange);
+.seccion-bc-img h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 6.5rem;
+    color: var(--just-white);
+    padding: 10px 100px;
+    background-color: #54b7efd0;
 }
 
-.seccion-robots {
-    background-color: var(--soft-orange);
+.seccion-bc-img p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+    color: var(--just-white);
+}
+
+.seccion-bc--title {
+    text-align: center;
+}
+
+.seccion-proyectos {
+    background-color: var(--off-white);
+}
+
+.seccion-servicios {
+    background-color: var(--warm-black);
+}
+
+.seccion-servicios .title-container h2 {
+    color: white;
+}
+
+.product-detail--title h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.product-detail--title p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.product-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    min-height: 150px;
+    margin: 15px 20px;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    text-align: left;
+}
+
+.product-detail--card .icono-card {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.clock {
+    background-image: url('../img/clock.svg');
+}
+
+.product--card-title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.product--card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
 }
 
 .seccion-perfil {
     height: 90vh;
-    background-color: var(--soft-orange);
+    background-color: var(--off-white);
 }
 
 .main-container--tarjetas {
@@ -249,11 +338,25 @@ header {
     margin-left: 10px;
 }
 
+.seccion-servicios .main-container--tarjetas .tarjeta-body {
+    background-color: var(--black);
+}
+
+.seccion-servicios .main-container--tarjetas .tarjeta-body h3 {
+    color: var(--just-white);
+}
+
+.seccion-servicios .main-container--tarjetas .tarjeta-body p {
+    color: #808080;
+}
+
 .background-image-card {
     display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px 10px 0 0;
+    width: 95%;
+    height: 50%;
+    margin: 0 auto;
+    /*border-radius: 10px 10px 0 0;*/
+    border-radius: 10px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -287,7 +390,25 @@ header {
     background-image: url('../img/fauno.jpg');
 }
 
+.web-service {
+    background-image: url('../img/web-service.jpg');
+}
+
+.mechanic-img {
+    background-image: url('../img/mechanic.PNG');
+}
+
+.pcb-orion {
+    background-image: url('../img/pcb.png');
+}
+
+.code-img {
+    background-image: url('../img/code.jpg');
+}
+
 .miFoto {
+    width: 80%;
+    height: 70%;
     border-radius: 50%;
     background-position: top;
     background-image: url('https://avatars.githubusercontent.com/u/56939611?s=460&u=f965cff1883772a4c0f430ab6b2bf516018ae45b&v=4');

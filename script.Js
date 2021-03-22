@@ -21,7 +21,7 @@ function opacarObjetos() {
     //console.log(scrollActual);
     pendiente = Math.abs(scrollActual - scrollAnterior);
     //console.log(pendiente);
-    if (pendiente < 2) {
+    if (pendiente < 5) {
         //console.warn(pendiente);
         iconoTele.style.opacity = "1";
     }

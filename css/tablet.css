@@ -1,8 +1,15 @@
 .main-container--tarjetas {
     justify-content: center;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 footer ul {
     display: flex;
+}
+
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
 }
