@@ -372,6 +372,10 @@ header {
     background-image: url('../img/mobileFirst.png');
 }
 
+.xubmaiz {
+    background-image: url('../img/xubmaiz.png');
+}
+
 .paginaCopiadeGoogle {
     background-image: url('../img/googleCopy.png');
 }
@@ -409,7 +413,7 @@ header {
 }
 
 .puntro-sales {
-    background-image: url('../img/web-service.jpg');
+    background-image: url('../img/puntroui.png');
 }
 .miFoto {
     width: 80%;
