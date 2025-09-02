@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Privacy Policy / Política de Privacidad — Puntro Sales POS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    body { margin: 0; padding: 24px; line-height: 1.6; }
+    .container { max-width: 880px; margin: 0 auto; }
+    h1, h2, h3 { line-height: 1.2; }
+    .lang-switch { display: flex; gap: 8px; margin: 16px 0 24px; }
+    .lang-switch button { padding: 8px 12px; border: 1px solid #ccc; background: #f8f8f8; cursor: pointer; border-radius: 8px; }
+    .lang-switch button.active { background: #eaeaea; font-weight: 600; }
+    .card { background: #fff; border: 1px solid #eee; border-radius: 12px; padding: 20px; }
+    .meta { color: #555; font-size: 0.95em; }
+    .muted { color: #666; }
+    ul { padding-left: 1.2rem; }
+    footer { margin-top: 32px; font-size: 0.9em; color: #666; }
+    .note { background: #f6f7f9; border: 1px solid #e5e7eb; padding: 12px 14px; border-radius: 8px; }
+    [lang="es"] { display: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="lang-switch" aria-label="Language selector">
+      <button id="btn-en" class="active" type="button">English</button>
+      <button id="btn-es" type="button">Español</button>
+    </div>
+
+    <section id="policy-en" class="card" lang="en">
+      <h1>Privacy Policy — <span class="muted">Puntro Sales POS</span></h1>
+      <p class="meta">
+        Effective date: <strong>2025-09-01</strong><br />
+        Publisher: <strong>imecatro</strong> — Contact: <strong>zayelmech@gmail.com</strong>
+      </p>
+
+      <h2>Overview</h2>
+      <p>
+        <strong>Puntro Sales POS</strong> is an offline point-of-sale (POS) application. The app works without an internet connection
+        and does not transmit your data to us or to any third party. All information you enter (e.g., your product catalog and other business records you choose to maintain) is stored <strong>locally on your device</strong>,
+        under your control.
+      </p>
+
+      <h2>Data We Handle</h2>
+      <ul>
+        <li><strong>User-entered business data (local only):</strong> such as product names, prices, SKUs, and any other records you decide to store in the app. This data remains on your device.</li>
+        <li><strong>No personal data collection:</strong> we do not collect, receive, or access personal data about you or your customers.</li>
+        <li><strong>No analytics, ads, or trackers:</strong> the app does not include third-party analytics SDKs, advertising SDKs, or tracking technologies.</li>
+      </ul>
+
+      <h2>Local Storage & No Data Transfers</h2>
+      <ul>
+        <li>Your data is saved only on the device where you use the app.</li>
+        <li>The app does <strong>not</strong> upload, sync, or share your data with external servers or services.</li>
+        <li>Any export, backup, or sharing of your data is initiated by you (e.g., manual export) and occurs only under your control.</li>
+      </ul>
+
+      <h2>Permissions</h2>
+      <p>
+        If the app requests device permissions (for example, storage access to save backups or camera for barcode scanning),
+        those permissions are used solely for the feature you initiate on your device. The app does not send the resulting data anywhere.
+      </p>
+
+      <h2>Retention & Deletion</h2>
+      <ul>
+        <li>Your data remains on your device until you delete it, uninstall the app, or reset the app’s local storage.</li>
+        <li>You can remove data at any time by deleting it within the app (if supported) or by clearing the app’s data/uninstalling.</li>
+      </ul>
+
+      <h2>Security</h2>
+      <p>
+        We rely on your device’s operating system safeguards (e.g., device lock, disk encryption where available).
+        Please protect your device and backups to prevent unauthorized access.
+      </p>
+
+      <h2>Your Rights</h2>
+      <p>
+        Because we do not collect or process your personal information on our servers, requests such as access, correction, or deletion
+        are managed by you directly on your device’s local data.
+      </p>
+
+      <h2>Children’s Privacy</h2>
+      <p>
+        The app is intended for business use and is not directed to children. We do not knowingly collect personal information from children.
+      </p>
+
+      <h2>Changes to This Policy</h2>
+      <p>
+        If we make material changes to this policy, we will update the “Effective date” above. Continued use of the app after changes
+        indicates acceptance of the revised policy.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        For questions about this policy, contact <strong>zayelmech@gmail.com</strong>.
+      </p>
+
+      <p class="note"><strong>Note:</strong> This document is provided for convenience only and does not constitute legal advice.</p>
+    </section>
+
+    <section id="policy-es" class="card" lang="es">
+      <h1>Política de Privacidad — <span class="muted">[Nombre de tu App]</span></h1>
+      <p class="meta">
+        Fecha de entrada en vigor: <strong>2025-09-01</strong><br />
+        Publicador: <strong>imecatro</strong> — Contacto: <strong>zayelmech@gmail.com</strong>
+      </p>
+
+      <h2>Resumen</h2>
+      <p>
+        <strong>Puntro Sales POS</strong> es una aplicación de punto de venta (POS) que funciona sin conexión a internet.
+        La app no transmite tus datos ni a nosotros ni a terceros. Toda la información que ingreses (por ejemplo, tu catálogo de productos
+        y otros registros de negocio que decidas mantener) se almacena <strong>localmente en tu dispositivo</strong> y permanece bajo tu control.
+      </p>
+
+      <h2>Datos que Manejamos</h2>
+      <ul>
+        <li><strong>Datos de negocio ingresados por el usuario (solo local):</strong> como nombres de productos, precios, SKUs y cualquier otro registro que decidas guardar. Estos datos permanecen en tu dispositivo.</li>
+        <li><strong>No recolectamos datos personales:</strong> no recopilamos, recibimos ni accedemos a datos personales tuyos ni de tus clientes.</li>
+        <li><strong>Sin analíticas, anuncios ni rastreadores:</strong> la app no incluye SDKs de analítica, publicidad ni tecnologías de seguimiento de terceros.</li>
+      </ul>
+
+      <h2>Almacenamiento Local y No Transferencias</h2>
+      <ul>
+        <li>Tus datos se guardan únicamente en el dispositivo donde usas la app.</li>
+        <li>La app <strong>no</strong> sube, sincroniza ni comparte tus datos con servidores o servicios externos.</li>
+        <li>Cualquier exportación, respaldo o compartición ocurre únicamente cuando tú lo decides (p. ej., exportación manual) y bajo tu control.</li>
+      </ul>
+
+      <h2>Permisos</h2>
+      <p>
+        Si la app solicita permisos del dispositivo (por ejemplo, acceso a almacenamiento para guardar respaldos o cámara para escaneo de códigos de barras),
+        dichos permisos se usan exclusivamente para la función que tú inicias en tu dispositivo. La app no envía esa información a ningún lado.
+      </p>
+
+      <h2>Conservación y Eliminación</h2>
+      <ul>
+        <li>Tus datos permanecen en tu dispositivo hasta que los elimines, desinstales la app o reinicies su almacenamiento local.</li>
+        <li>Puedes eliminar los datos en cualquier momento desde la app (si está disponible) o borrando los datos/desinstalando la app.</li>
+      </ul>
+
+      <h2>Seguridad</h2>
+      <p>
+        Confiamos en las protecciones del sistema operativo de tu dispositivo (por ejemplo, bloqueo del dispositivo, cifrado de disco donde aplique).
+        Por favor protege tu dispositivo y tus respaldos para evitar accesos no autorizados.
+      </p>
+
+      <h2>Tus Derechos</h2>
+      <p>
+        Como no recolectamos ni tratamos tu información personal en servidores, solicitudes como acceso, corrección o eliminación
+        se gestionan directamente por ti sobre los datos locales en tu dispositivo.
+      </p>
+
+      <h2>Privacidad de Menores</h2>
+      <p>
+        La app está destinada a uso empresarial y no está dirigida a menores. No recopilamos deliberadamente información personal de menores.
+      </p>
+
+      <h2>Cambios a Esta Política</h2>
+      <p>
+        Si realizamos cambios materiales, actualizaremos la “Fecha de entrada en vigor”. El uso continuo de la app después de los cambios
+        implica la aceptación de la versión actualizada.
+      </p>
+
+      <h2>Contacto</h2>
+      <p>
+        Si tienes preguntas sobre esta política, contáctanos en <strong>zayelmech@gmail.com</strong>.
+      </p>
+
+      <p class="note"><strong>Nota:</strong> Este documento se proporciona únicamente con fines informativos y no constituye asesoría legal.</p>
+    </section>
+
+    <footer>
+      <p class="muted">2025 imecatro.com All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script>
+    const en = document.getElementById('policy-en');
+    const es = document.getElementById('policy-es');
+    const btnEn = document.getElementById('btn-en');
+    const btnEs = document.getElementById('btn-es');
+
+    btnEn.addEventListener('click', () => {
+      en.style.display = 'block';
+      es.style.display = 'none';
+      btnEn.classList.add('active');
+      btnEs.classList.remove('active');
+    });
+
+    btnEs.addEventListener('click', () => {
+      en.style.display = 'none';
+      es.style.display = 'block';
+      btnEs.classList.add('active');
+      btnEn.classList.remove('active');
+    });
+  </script>
+</body>
+</html>
