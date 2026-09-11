@@ -2,198 +2,251 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Privacy Policy / Política de Privacidad — Puntro Sales POS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Privacy Policy for Puntro Sales POS and its optional online catalog service." />
+  <title>Privacy Policy / Política de Privacidad — Puntro Sales POS</title>
   <style>
-    :root { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
-    body { margin: 0; padding: 24px; line-height: 1.6; }
+    :root { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, "Apple Color Emoji", "Segoe UI Emoji"; color-scheme: light; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 24px; line-height: 1.65; color: #18212f; background: #f6f7f9; }
     .container { max-width: 880px; margin: 0 auto; }
-    h1, h2, h3 { line-height: 1.2; }
-    .lang-switch { display: flex; gap: 8px; margin: 16px 0 24px; }
-    .lang-switch button { padding: 8px 12px; border: 1px solid #ccc; background: #f8f8f8; cursor: pointer; border-radius: 8px; }
-    .lang-switch button.active { background: #eaeaea; font-weight: 600; }
-    .card { background: #fff; border: 1px solid #eee; border-radius: 12px; padding: 20px; }
-    .meta { color: #555; font-size: 0.95em; }
-    .muted { color: #666; }
-    ul { padding-left: 1.2rem; }
-    footer { margin-top: 32px; font-size: 0.9em; color: #666; }
-    .note { background: #f6f7f9; border: 1px solid #e5e7eb; padding: 12px 14px; border-radius: 8px; }
+    h1, h2, h3 { line-height: 1.25; color: #111827; }
+    h2 { margin-top: 28px; }
+    a { color: #155eef; }
+    .lang-switch { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 24px; }
+    .lang-switch button { padding: 8px 12px; border: 1px solid #cfd5dd; background: #fff; cursor: pointer; border-radius: 8px; }
+    .lang-switch button.active { background: #e8efff; border-color: #7ea2f8; font-weight: 700; }
+    .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: clamp(20px, 4vw, 34px); box-shadow: 0 8px 28px rgba(17, 24, 39, 0.05); }
+    .meta { color: #4b5563; font-size: 0.95em; }
+    .muted { color: #5f6b7a; }
+    ul { padding-left: 1.25rem; }
+    li + li { margin-top: 8px; }
+    .note, .warning { padding: 13px 15px; border-radius: 8px; }
+    .note { background: #f6f8fb; border: 1px solid #dfe4ea; }
+    .warning { background: #fff7ed; border: 1px solid #fdba74; }
+    .doc-links { margin-top: 28px; padding-top: 18px; border-top: 1px solid #e5e7eb; }
+    footer { margin-top: 28px; text-align: center; font-size: 0.9em; color: #667085; }
     [lang="es"] { display: none; }
+    @media (max-width: 560px) { body { padding: 14px; } }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="lang-switch" aria-label="Language selector">
-      <button id="btn-en" class="active" type="button">English</button>
-      <button id="btn-es" type="button">Español</button>
+  <main class="container">
+    <div class="lang-switch" aria-label="Language selector / Selector de idioma">
+      <button id="btn-en" class="active" type="button" aria-controls="policy-en" aria-pressed="true">English</button>
+      <button id="btn-es" type="button" aria-controls="policy-es" aria-pressed="false">Español</button>
     </div>
 
     <section id="policy-en" class="card" lang="en">
       <h1>Privacy Policy — <span class="muted">Puntro Sales POS</span></h1>
       <p class="meta">
-        Effective date: <strong>2025-09-01</strong><br />
-        Publisher: <strong>imecatro</strong> — Contact: <strong>zayelmech@gmail.com</strong>
+        Effective date: <strong>September 10, 2026</strong><br />
+        Responsible party and publisher: <strong>imecatro</strong><br />
+        Privacy contact: <a href="mailto:zayelmech@gmail.com">zayelmech@gmail.com</a>
       </p>
 
-      <h2>Overview</h2>
-      <p>
-        <strong>Puntro Sales POS</strong> is an offline point-of-sale (POS) application. The app works without an internet connection
-        and does not transmit your data to us or to any third party. All information you enter (e.g., your product catalog and other business records you choose to maintain) is stored <strong>locally on your device</strong>,
-        under your control.
-      </p>
+      <h2>1. Scope and key points</h2>
+      <p>This Policy applies to the Puntro Sales POS mobile application, its website, and the optional online catalog publishing service (together, the “Services”).</p>
+      <p class="note"><strong>Most POS records remain on your device.</strong> Online processing occurs when you use features such as Google sign-in, catalog publishing, maps or geocoding, manual sharing, backups provided by your device, and—depending on the app version or distribution—analytics and crash reporting.</p>
 
-      <h2>Data We Handle</h2>
+      <h2>2. Information handled by the Services</h2>
+      <h3>Information normally stored locally</h3>
       <ul>
-        <li><strong>User-entered business data (local only):</strong> such as product names, prices, SKUs, and any other records you decide to store in the app. This data remains on your device.</li>
-        <li><strong>No personal data collection:</strong> we do not collect, receive, or access personal data about you or your customers.</li>
-        <li><strong>No analytics, ads, or trackers:</strong> the app does not include third-party analytics SDKs, advertising SDKs, or tracking technologies.</li>
+        <li>Products, barcodes, categories, prices, costs, inventory, images, and notes.</li>
+        <li>Sales, order details, totals, status, and reports.</li>
+        <li>Customer records you enter or import, which may include names, phone numbers, addresses, contact photos, and purchase information.</li>
+        <li>Business profile and preferences, including store name, description, logo, WhatsApp number, location, currency, language, and theme.</li>
+      </ul>
+      <p>These records are primarily stored in the app’s local database or preferences. Your operating system may include them in a device backup or device-to-device transfer according to your backup settings and provider’s terms.</p>
+
+      <h3>Account and authentication information</h3>
+      <p>If you choose to publish a catalog, Google sign-in and Firebase Authentication are used to associate and protect it. The providers may process an account identifier and profile information made available during sign-in, such as your display name, email address, and profile image. Puntro Sales does not receive your Google password.</p>
+
+      <h3>Information published in an online catalog</h3>
+      <p>When you expressly publish a catalog, the selected information is uploaded to cloud infrastructure and made available through a public link. It may include:</p>
+      <ul>
+        <li>Store name and description, WhatsApp number, business location, currency, and catalog template.</li>
+        <li>Selected products and their names, descriptions, categories, prices, units, availability, optional stock levels, and images.</li>
+        <li>Technical identifiers needed to associate, route, update, and disable the catalog, including a Firebase account identifier or a derived public key.</li>
+      </ul>
+      <p class="warning"><strong>Public means public:</strong> anyone with the link may view, copy, cache, index, screenshot, or share the catalog. Do not publish secrets, customer information, sensitive personal data, or content you do not have the right to use.</p>
+
+      <h3>Usage and diagnostic information</h3>
+      <p>In versions that include Firebase Analytics and Firebase Crashlytics, Google may process app and device identifiers, app interactions, device/operating-system information, approximate connection information, and crash or diagnostic data. Current custom events may also include a newly created product name and a local sale identifier and total. We use this information to understand use, diagnose failures, protect the Services, and improve functionality—not to provide third-party personalized advertising.</p>
+
+      <h2>3. How we use information</h2>
+      <ul>
+        <li>Operate the POS features you request and store your settings.</li>
+        <li>Authenticate users and create, host, display, update, and disable public catalogs.</li>
+        <li>Generate reports, exports, previews, public links, and sharing actions initiated by you.</li>
+        <li>Measure reliability, troubleshoot crashes, prevent abuse, and secure the Services.</li>
+        <li>Respond to support, privacy, legal, and rights requests.</li>
+        <li>Comply with applicable law and enforce the <a href="termsconditions.html">Catalog Publication Terms</a>.</li>
+      </ul>
+      <p>We process online information to provide features you request, perform our agreement with you, protect legitimate security and service interests, comply with law, and obtain consent where applicable. Analytics and product improvement are secondary purposes; you may object to them through the contact in Section 9. We do not sell your personal information.</p>
+
+      <h2>4. Permissions and user-controlled actions</h2>
+      <ul>
+        <li><strong>Camera:</strong> used when you choose barcode scanning. Camera frames are not intentionally uploaded by that feature.</li>
+        <li><strong>Contacts:</strong> used only after permission is granted so you can select or import contact details into local customer records. Permission can be revoked in device settings.</li>
+        <li><strong>Files and media:</strong> used when you select product images, save a backup or report, restore information, or share a file.</li>
+        <li><strong>Maps/geocoding:</strong> an address you enter may be sent to a map or geocoding provider to obtain coordinates or display a map.</li>
+        <li><strong>Sharing:</strong> exports, catalog links, reports, or WhatsApp messages are sent to the app or recipient you choose and are then governed by that third party’s practices.</li>
       </ul>
 
-      <h2>Local Storage & No Data Transfers</h2>
+      <h2>5. Public catalog content and other people’s data</h2>
+      <p>You decide what to enter and publish and are responsible for having a lawful basis, notice, consent, and rights to use that information. You act as the responsible party for personal data about your customers, employees, suppliers, or other people that you place in the app. Catalogs are intended for business and product information; publishing third-party personal or sensitive information is prohibited.</p>
+
+      <h2>6. Service providers, disclosures, and international processing</h2>
+      <p>Depending on the feature and app distribution, information may be processed by Google services such as Google Sign-In, Firebase Authentication, Storage, Firestore, Remote Config, Analytics, Crashlytics, Maps, or geocoding. This policy page is hosted through GitHub Pages, which may log visitors’ IP addresses for security purposes. These providers may process information in countries other than yours under their own terms and safeguards. See <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>, <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a>, and <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub’s Privacy Statement</a>.</p>
+      <p>We may also disclose information when required by applicable law, a valid legal process, or when reasonably necessary to protect users, the public, our rights, or the integrity of the Services. Content you choose to publish is disclosed to the public by your instruction.</p>
+
+      <h2>7. Retention and deletion</h2>
       <ul>
-        <li>Your data is saved only on the device where you use the app.</li>
-        <li>The app does <strong>not</strong> upload, sync, or share your data with external servers or services.</li>
-        <li>Any export, backup, or sharing of your data is initiated by you (e.g., manual export) and occurs only under your control.</li>
+        <li><strong>Local data:</strong> remains until you delete it in the app, clear app data, restore or replace a backup, or uninstall the app. A sale may retain a snapshot of customer information used in that transaction.</li>
+        <li><strong>Published catalogs:</strong> remain hosted while needed to operate and maintain the catalog service. Choosing “Unpublish” disables the public route but does not by itself immediately delete the catalog JSON, uploaded images, account record, security logs, or backups.</li>
+        <li><strong>Account and telemetry:</strong> are retained for the period needed for the purposes described above, provider configuration, security, dispute resolution, and legal obligations.</li>
       </ul>
+      <p>To request deletion of the hosted catalog files or associated account information, email <a href="mailto:zayelmech@gmail.com">zayelmech@gmail.com</a> from or identifying the account used to publish. We may request reasonable identity verification. Copies outside our control—including recipients’ copies, search indexes, caches, or lawful backups—may persist.</p>
 
-      <h2>Permissions</h2>
-      <p>
-        If the app requests device permissions (for example, storage access to save backups or camera for barcode scanning),
-        those permissions are used solely for the feature you initiate on your device. The app does not send the resulting data anywhere.
-      </p>
+      <h2>8. Security</h2>
+      <p>We use reasonable technical and organizational safeguards, including platform access controls and scoped catalog identifiers. No device, transmission, or storage method is completely secure. Protect your device and Google account, review catalog content before publishing, and do not share confidential information through a public catalog.</p>
 
-      <h2>Retention & Deletion</h2>
-      <ul>
-        <li>Your data remains on your device until you delete it, uninstall the app, or reset the app’s local storage.</li>
-        <li>You can remove data at any time by deleting it within the app (if supported) or by clearing the app’s data/uninstalling.</li>
-      </ul>
+      <h2 id="privacy-rights-en">9. Your choices and privacy rights</h2>
+      <p>Subject to applicable law, you may request access, rectification, cancellation or deletion, opposition, portability where available, restriction of use or disclosure, or withdrawal of consent for personal information we control. Send your name, the account used for the catalog, a clear description of the request, and a way to receive our response to <a href="mailto:zayelmech@gmail.com">zayelmech@gmail.com</a>. Do not email passwords or identity documents unless specifically requested through a secure method.</p>
+      <p>For requests governed by Mexican law, we will communicate our determination within 20 days and, if granted, make it effective within the following 15 days; either period may be extended once when justified and permitted by law. You can also deny or revoke app permissions in device settings, avoid online catalog publishing, unpublish an existing catalog, remove local records, disable supported analytics controls where available, and manage Puntro Sales access from your Google Account.</p>
 
-      <h2>Security</h2>
-      <p>
-        We rely on your device’s operating system safeguards (e.g., device lock, disk encryption where available).
-        Please protect your device and backups to prevent unauthorized access.
-      </p>
+      <h3 id="delete-account-en">Account and hosted-catalog deletion request</h3>
+      <p>Email <a href="mailto:zayelmech@gmail.com?subject=Puntro%20Sales%20account%20deletion%20request">zayelmech@gmail.com</a> with the subject “Puntro Sales account deletion request” and identify the Google account used to publish. State whether you want deletion of the hosted catalog, the associated catalog account data, or both. We will verify control of the account before acting. This request does not delete local records on your device; remove those in the app or device settings.</p>
 
-      <h2>Your Rights</h2>
-      <p>
-        Because we do not collect or process your personal information on our servers, requests such as access, correction, or deletion
-        are managed by you directly on your device’s local data.
-      </p>
+      <h2>10. Children</h2>
+      <p>The Services are intended for adults and business use, not for children. Do not create an account or publish a catalog if you lack legal capacity to accept the applicable terms. Do not publish personal information, images, or exploitative content involving minors.</p>
 
-      <h2>Children’s Privacy</h2>
-      <p>
-        The app is intended for business use and is not directed to children. We do not knowingly collect personal information from children.
-      </p>
+      <h2>11. Changes to this Policy</h2>
+      <p>We may update this Policy when the Services or legal requirements change. We will post the revised version here and update the effective date. Where required, we will provide additional notice or request consent.</p>
 
-      <h2>Changes to This Policy</h2>
-      <p>
-        If we make material changes to this policy, we will update the “Effective date” above. Continued use of the app after changes
-        indicates acceptance of the revised policy.
-      </p>
+      <h2>12. Contact</h2>
+      <p>For privacy questions, rights requests, account or hosted-catalog deletion, or security concerns, contact <a href="mailto:zayelmech@gmail.com">zayelmech@gmail.com</a>.</p>
 
-      <h2>Contact</h2>
-      <p>
-        For questions about this policy, contact <strong>zayelmech@gmail.com</strong>.
-      </p>
-
-      <p class="note"><strong>Note:</strong> This document is provided for convenience only and does not constitute legal advice.</p>
+      <p class="doc-links"><strong>Related document:</strong> <a href="termsconditions.html">Terms and Conditions for Catalog Publication</a>.</p>
     </section>
 
     <section id="policy-es" class="card" lang="es">
       <h1>Política de Privacidad — <span class="muted">Puntro Sales POS</span></h1>
       <p class="meta">
-        Fecha de entrada en vigor: <strong>2025-09-01</strong><br />
-        Publicador: <strong>imecatro</strong> — Contacto: <strong>zayelmech@gmail.com</strong>
+        Fecha de entrada en vigor: <strong>10 de septiembre de 2026</strong><br />
+        Responsable y publicador: <strong>imecatro</strong><br />
+        Contacto de privacidad: <a href="mailto:zayelmech@gmail.com">zayelmech@gmail.com</a>
       </p>
 
-      <h2>Resumen</h2>
-      <p>
-        <strong>Puntro Sales POS</strong> es una aplicación de punto de venta (POS) que funciona sin conexión a internet.
-        La app no transmite tus datos ni a nosotros ni a terceros. Toda la información que ingreses (por ejemplo, tu catálogo de productos
-        y otros registros de negocio que decidas mantener) se almacena <strong>localmente en tu dispositivo</strong> y permanece bajo tu control.
-      </p>
+      <h2>1. Alcance y puntos clave</h2>
+      <p>Esta Política aplica a la aplicación móvil Puntro Sales POS, su sitio web y el servicio opcional de publicación de catálogos en línea (en conjunto, los “Servicios”).</p>
+      <p class="note"><strong>La mayoría de los registros del punto de venta permanecen en tu dispositivo.</strong> Existe tratamiento en línea cuando utilizas funciones como el inicio de sesión con Google, la publicación del catálogo, mapas o geocodificación, el uso compartido manual, los respaldos ofrecidos por tu dispositivo y —según la versión o distribución de la app— analítica y reporte de fallos.</p>
 
-      <h2>Datos que Manejamos</h2>
+      <h2>2. Información tratada por los Servicios</h2>
+      <h3>Información que normalmente se almacena de forma local</h3>
       <ul>
-        <li><strong>Datos de negocio ingresados por el usuario (solo local):</strong> como nombres de productos, precios, SKUs y cualquier otro registro que decidas guardar. Estos datos permanecen en tu dispositivo.</li>
-        <li><strong>No recolectamos datos personales:</strong> no recopilamos, recibimos ni accedemos a datos personales tuyos ni de tus clientes.</li>
-        <li><strong>Sin analíticas, anuncios ni rastreadores:</strong> la app no incluye SDKs de analítica, publicidad ni tecnologías de seguimiento de terceros.</li>
+        <li>Productos, códigos de barras, categorías, precios, costos, inventario, imágenes y notas.</li>
+        <li>Ventas, detalles de pedidos, totales, estados y reportes.</li>
+        <li>Registros de clientes que ingreses o importes, que pueden incluir nombres, teléfonos, domicilios, fotos de contacto e información de compras.</li>
+        <li>Perfil y preferencias del negocio, incluidos nombre, descripción, logo, número de WhatsApp, ubicación, moneda, idioma y tema.</li>
+      </ul>
+      <p>Estos registros se guardan principalmente en la base de datos o preferencias locales de la app. El sistema operativo puede incluirlos en un respaldo del dispositivo o una transferencia entre dispositivos conforme a tus ajustes de respaldo y los términos del proveedor.</p>
+
+      <h3>Información de cuenta y autenticación</h3>
+      <p>Si decides publicar un catálogo, utilizamos el inicio de sesión con Google y Firebase Authentication para asociarlo y protegerlo. Los proveedores pueden tratar un identificador de cuenta y la información de perfil disponible durante el inicio de sesión, como nombre visible, correo electrónico e imagen de perfil. Puntro Sales no recibe tu contraseña de Google.</p>
+
+      <h3>Información publicada en un catálogo en línea</h3>
+      <p>Cuando publicas expresamente un catálogo, la información seleccionada se carga en infraestructura en la nube y queda disponible mediante un enlace público. Puede incluir:</p>
+      <ul>
+        <li>Nombre y descripción de la tienda, número de WhatsApp, ubicación comercial, moneda y plantilla.</li>
+        <li>Productos seleccionados y sus nombres, descripciones, categorías, precios, unidades, disponibilidad, existencias opcionales e imágenes.</li>
+        <li>Identificadores técnicos necesarios para asociar, dirigir, actualizar y deshabilitar el catálogo, incluido un identificador de cuenta de Firebase o una clave pública derivada.</li>
+      </ul>
+      <p class="warning"><strong>Público significa público:</strong> cualquier persona con el enlace puede ver, copiar, almacenar en caché, indexar, capturar o compartir el catálogo. No publiques secretos, información de clientes, datos personales sensibles ni contenido que no tengas derecho a utilizar.</p>
+
+      <h3>Información de uso y diagnóstico</h3>
+      <p>En las versiones que incluyen Firebase Analytics y Firebase Crashlytics, Google puede tratar identificadores de la app y del dispositivo, interacciones, información del dispositivo y sistema operativo, información aproximada de conexión y datos de fallos o diagnóstico. Los eventos personalizados actuales también pueden incluir el nombre de un producto recién creado y el identificador local y total de una venta. Usamos esta información para comprender el uso, diagnosticar fallos, proteger los Servicios y mejorar funciones; no para ofrecer publicidad personalizada de terceros.</p>
+
+      <h2>3. Cómo utilizamos la información</h2>
+      <ul>
+        <li>Operar las funciones de punto de venta que solicites y guardar tus preferencias.</li>
+        <li>Autenticar usuarios y crear, alojar, mostrar, actualizar y deshabilitar catálogos públicos.</li>
+        <li>Generar reportes, exportaciones, vistas previas, enlaces públicos y acciones de compartir iniciadas por ti.</li>
+        <li>Medir confiabilidad, diagnosticar fallos, prevenir abusos y proteger los Servicios.</li>
+        <li>Responder solicitudes de soporte, privacidad, derechos y requerimientos legales.</li>
+        <li>Cumplir la ley aplicable y hacer valer los <a href="termsconditions.html">Términos de Publicación de Catálogos</a>.</li>
+      </ul>
+      <p>Tratamos información en línea para prestar las funciones que solicitas, ejecutar nuestro acuerdo contigo, proteger intereses legítimos de seguridad y operación, cumplir obligaciones legales y obtener consentimiento cuando corresponda. La analítica y mejora del producto son finalidades secundarias; puedes oponerte mediante el contacto de la Sección 9. No vendemos tu información personal.</p>
+
+      <h2>4. Permisos y acciones bajo tu control</h2>
+      <ul>
+        <li><strong>Cámara:</strong> se usa cuando eliges escanear códigos de barras. Esa función no está diseñada para cargar los fotogramas de la cámara.</li>
+        <li><strong>Contactos:</strong> se usa únicamente después de tu autorización para que selecciones o importes datos a los registros locales de clientes. Puedes revocar el permiso en los ajustes del dispositivo.</li>
+        <li><strong>Archivos y contenido multimedia:</strong> se usa cuando eliges imágenes de productos, guardas o restauras respaldos o reportes, o compartes un archivo.</li>
+        <li><strong>Mapas/geocodificación:</strong> un domicilio que ingreses puede enviarse a un proveedor de mapas o geocodificación para obtener coordenadas o mostrar un mapa.</li>
+        <li><strong>Compartir:</strong> las exportaciones, enlaces de catálogo, reportes o mensajes de WhatsApp se envían a la app o destinatario que elijas y después se rigen por las prácticas de ese tercero.</li>
       </ul>
 
-      <h2>Almacenamiento Local y No Transferencias</h2>
+      <h2>5. Contenido del catálogo y datos de otras personas</h2>
+      <p>Tú decides qué ingresar y publicar, y eres responsable de contar con base legal, aviso, consentimiento y derechos suficientes sobre esa información. Actúas como responsable de los datos personales de clientes, empleados, proveedores u otras personas que incorpores a la app. Los catálogos están destinados a información comercial y de productos; está prohibido publicar datos personales o sensibles de terceros.</p>
+
+      <h2>6. Proveedores, divulgaciones y tratamiento internacional</h2>
+      <p>Según la función y distribución de la app, la información puede ser tratada por servicios de Google como Google Sign-In, Firebase Authentication, Storage, Firestore, Remote Config, Analytics, Crashlytics, Maps o geocodificación. Esta página se aloja mediante GitHub Pages, que puede registrar las direcciones IP de visitantes con fines de seguridad. Dichos proveedores pueden tratar información en países distintos al tuyo conforme a sus términos y salvaguardas. Consulta la <a href="https://policies.google.com/privacy?hl=es">Política de Privacidad de Google</a>, la información de <a href="https://firebase.google.com/support/privacy?hl=es">Privacidad y Seguridad de Firebase</a> y la <a href="https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement">Declaración de Privacidad de GitHub</a>.</p>
+      <p>También podremos divulgar información cuando lo exija la ley aplicable o un procedimiento legal válido, o cuando sea razonablemente necesario para proteger a usuarios, al público, nuestros derechos o la integridad de los Servicios. El contenido que decidas publicar se divulga al público por instrucción tuya.</p>
+
+      <h2>7. Conservación y eliminación</h2>
       <ul>
-        <li>Tus datos se guardan únicamente en el dispositivo donde usas la app.</li>
-        <li>La app <strong>no</strong> sube, sincroniza ni comparte tus datos con servidores o servicios externos.</li>
-        <li>Cualquier exportación, respaldo o compartición ocurre únicamente cuando tú lo decides (p. ej., exportación manual) y bajo tu control.</li>
+        <li><strong>Datos locales:</strong> permanecen hasta que los elimines en la app, borres sus datos, restaures o reemplaces un respaldo, o desinstales la app. Una venta puede conservar una copia de los datos del cliente utilizados en esa transacción.</li>
+        <li><strong>Catálogos publicados:</strong> permanecen alojados mientras sea necesario para operar y mantener el servicio. Elegir “Despublicar” deshabilita la ruta pública, pero por sí solo no elimina inmediatamente el archivo JSON, las imágenes cargadas, el registro de cuenta, los registros de seguridad ni los respaldos.</li>
+        <li><strong>Cuenta y telemetría:</strong> se conservan durante el periodo necesario para los fines descritos, la configuración del proveedor, la seguridad, la solución de controversias y las obligaciones legales.</li>
       </ul>
+      <p>Para solicitar la eliminación de archivos alojados del catálogo o información asociada a la cuenta, escribe a <a href="mailto:zayelmech@gmail.com">zayelmech@gmail.com</a> desde la cuenta utilizada para publicar o identificándola. Podremos pedir una verificación razonable de identidad. Pueden persistir copias fuera de nuestro control, incluidas las de destinatarios, índices de buscadores, cachés o respaldos legales.</p>
 
-      <h2>Permisos</h2>
-      <p>
-        Si la app solicita permisos del dispositivo (por ejemplo, acceso a almacenamiento para guardar respaldos o cámara para escaneo de códigos de barras),
-        dichos permisos se usan exclusivamente para la función que tú inicias en tu dispositivo. La app no envía esa información a ningún lado.
-      </p>
+      <h2>8. Seguridad</h2>
+      <p>Aplicamos salvaguardas técnicas y organizativas razonables, incluidos controles de acceso de la plataforma e identificadores delimitados para catálogos. Ningún dispositivo, transmisión o almacenamiento es completamente seguro. Protege tu dispositivo y cuenta de Google, revisa el catálogo antes de publicarlo y no compartas información confidencial mediante un catálogo público.</p>
 
-      <h2>Conservación y Eliminación</h2>
-      <ul>
-        <li>Tus datos permanecen en tu dispositivo hasta que los elimines, desinstales la app o reinicies su almacenamiento local.</li>
-        <li>Puedes eliminar los datos en cualquier momento desde la app (si está disponible) o borrando los datos/desinstalando la app.</li>
-      </ul>
+      <h2 id="privacy-rights-es">9. Tus decisiones y derechos de privacidad</h2>
+      <p>Conforme a la ley aplicable, puedes solicitar acceso, rectificación, cancelación o eliminación, oposición, portabilidad cuando exista, limitación del uso o divulgación, o revocación del consentimiento respecto de la información personal bajo nuestro control. Envía tu nombre, la cuenta utilizada para el catálogo, una descripción clara de la solicitud y un medio para recibir respuesta a <a href="mailto:zayelmech@gmail.com">zayelmech@gmail.com</a>. No envíes contraseñas ni documentos de identidad por correo salvo que se soliciten expresamente mediante un método seguro.</p>
+      <p>Para solicitudes regidas por la legislación mexicana, comunicaremos nuestra determinación en un máximo de 20 días y, si resulta procedente, la haremos efectiva dentro de los 15 días siguientes; ambos plazos pueden ampliarse una vez cuando exista justificación y la ley lo permita. También puedes negar o revocar permisos en los ajustes del dispositivo, no utilizar la publicación en línea, despublicar un catálogo, borrar registros locales, usar los controles de analítica disponibles cuando existan y administrar el acceso de Puntro Sales desde tu Cuenta de Google.</p>
 
-      <h2>Seguridad</h2>
-      <p>
-        Confiamos en las protecciones del sistema operativo de tu dispositivo (por ejemplo, bloqueo del dispositivo, cifrado de disco donde aplique).
-        Por favor protege tu dispositivo y tus respaldos para evitar accesos no autorizados.
-      </p>
+      <h3 id="delete-account-es">Solicitud de eliminación de cuenta y catálogo alojado</h3>
+      <p>Escribe a <a href="mailto:zayelmech@gmail.com?subject=Solicitud%20de%20eliminaci%C3%B3n%20de%20cuenta%20Puntro%20Sales">zayelmech@gmail.com</a> con el asunto “Solicitud de eliminación de cuenta Puntro Sales” e identifica la cuenta de Google utilizada para publicar. Indica si solicitas borrar el catálogo alojado, los datos de cuenta asociados al catálogo o ambos. Verificaremos el control de la cuenta antes de actuar. Esta solicitud no elimina los registros locales del dispositivo; bórralos desde la app o los ajustes del dispositivo.</p>
 
-      <h2>Tus Derechos</h2>
-      <p>
-        Como no recolectamos ni tratamos tu información personal en servidores, solicitudes como acceso, corrección o eliminación
-        se gestionan directamente por ti sobre los datos locales en tu dispositivo.
-      </p>
+      <h2>10. Menores de edad</h2>
+      <p>Los Servicios están dirigidos a personas adultas y al uso comercial, no a menores. No crees una cuenta ni publiques un catálogo si no tienes capacidad legal para aceptar los términos aplicables. No publiques información personal, imágenes ni contenido de explotación relacionado con menores.</p>
 
-      <h2>Privacidad de Menores</h2>
-      <p>
-        La app está destinada a uso empresarial y no está dirigida a menores. No recopilamos deliberadamente información personal de menores.
-      </p>
+      <h2>11. Cambios a esta Política</h2>
+      <p>Podemos actualizar esta Política cuando cambien los Servicios o los requisitos legales. Publicaremos aquí la versión revisada y actualizaremos la fecha de entrada en vigor. Cuando corresponda, proporcionaremos un aviso adicional o solicitaremos consentimiento.</p>
 
-      <h2>Cambios a Esta Política</h2>
-      <p>
-        Si realizamos cambios materiales, actualizaremos la “Fecha de entrada en vigor”. El uso continuo de la app después de los cambios
-        implica la aceptación de la versión actualizada.
-      </p>
+      <h2>12. Contacto</h2>
+      <p>Para consultas de privacidad, ejercicio de derechos, eliminación de cuenta o catálogo alojado, o inquietudes de seguridad, escribe a <a href="mailto:zayelmech@gmail.com">zayelmech@gmail.com</a>.</p>
 
-      <h2>Contacto</h2>
-      <p>
-        Si tienes preguntas sobre esta política, contáctanos en <strong>zayelmech@gmail.com</strong>.
-      </p>
-
-      <p class="note"><strong>Nota:</strong> Este documento se proporciona únicamente con fines informativos y no constituye asesoría legal.</p>
+      <p class="doc-links"><strong>Documento relacionado:</strong> <a href="termsconditions.html">Términos y Condiciones para la Publicación de Catálogos</a>.</p>
     </section>
 
-    <footer>
-      <p class="muted">2025 imecatro.com All rights reserved.</p>
-    </footer>
-  </div>
-
+    <footer><p>© 2026 imecatro. All rights reserved / Todos los derechos reservados.</p></footer>
+  </main>
   <script>
     const en = document.getElementById('policy-en');
     const es = document.getElementById('policy-es');
     const btnEn = document.getElementById('btn-en');
     const btnEs = document.getElementById('btn-es');
 
-    btnEn.addEventListener('click', () => {
-      en.style.display = 'block';
-      es.style.display = 'none';
-      btnEn.classList.add('active');
-      btnEs.classList.remove('active');
-    });
+    function showLanguage(language) {
+      const showEnglish = language === 'en';
+      en.style.display = showEnglish ? 'block' : 'none';
+      es.style.display = showEnglish ? 'none' : 'block';
+      btnEn.classList.toggle('active', showEnglish);
+      btnEs.classList.toggle('active', !showEnglish);
+      btnEn.setAttribute('aria-pressed', String(showEnglish));
+      btnEs.setAttribute('aria-pressed', String(!showEnglish));
+      document.documentElement.lang = language;
+    }
 
-    btnEs.addEventListener('click', () => {
-      en.style.display = 'none';
-      es.style.display = 'block';
-      btnEs.classList.add('active');
-      btnEn.classList.remove('active');
-    });
+    btnEn.addEventListener('click', () => showLanguage('en'));
+    btnEs.addEventListener('click', () => showLanguage('es'));
+    if (window.location.hash.endsWith('-es')) showLanguage('es');
   </script>
 </body>
 </html>
